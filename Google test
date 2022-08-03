@@ -1,0 +1,11 @@
+/// <reference types="cypress" />
+
+
+it('google test', ()=>{
+cy.visit('https://google.pl')
+cy.get('#L2AGLb > .QS5gu').click()
+cy.get('.gLFyf').type('successful test{enter}')
+
+
+
+})
